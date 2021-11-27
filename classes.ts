@@ -82,4 +82,4 @@ objetos a partir dela, mas pode estender essa classe. Sendo útil
 quando queremos que uma classe seja modelo pra outras classes mas não queremos
 criar nenhum objeto a partir da mesma. */
 
-//adicionando o gitignore
+//adicionando o gitignore ok
