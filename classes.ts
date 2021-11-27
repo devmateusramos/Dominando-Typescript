@@ -81,3 +81,5 @@ pra estender para o CharAccount. Porque classes abstract  não podem criar
 objetos a partir dela, mas pode estender essa classe. Sendo útil
 quando queremos que uma classe seja modelo pra outras classes mas não queremos
 criar nenhum objeto a partir da mesma. */
+
+//adicionando o gitignore
