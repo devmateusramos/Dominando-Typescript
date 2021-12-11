@@ -10,8 +10,8 @@ type AccountInfo = {
 
 const account: AccountInfo = {
   id: 123,
-  name: 'Mateus',
-  email: 'mateus@email.com',
+  name: "Mateus",
+  email: "mateus@email.com",
 };
 
 type CharInfo = {
@@ -20,16 +20,16 @@ type CharInfo = {
 };
 
 const char: CharInfo = {
-  nickname: 'hunter',
+  nickname: "hunter",
   level: 200,
 };
 
-// intersection
+// intersection é essa união de types dizendo que recebe ambos
 type PlayerInfo = AccountInfo & CharInfo;
 
 const player: PlayerInfo = {
   level: 100,
   id: 231,
-  name: 'Mateus Ramos',
-  nickname: 'hunter2',
+  name: "Mateus Ramos",
+  nickname: "hunter2",
 };
